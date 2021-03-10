@@ -1,0 +1,411 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+*:active {
+    outline: none;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #111111;
+}
+
+.ui-btn {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 25px;
+    border: 0px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: none;
+}
+
+.ui-btn:hover {
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.ui-btn:active {
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+    background: rgba(27, 112, 207, 0.7);
+}
+
+.head .blog a {
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 50px;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.head .blog a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.head ul {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.head ul li {
+    padding: 0 30px;
+    cursor: pointer;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.head ul li a {
+    color: white;
+    display: block;
+    line-height: 50px;
+}
+
+.head ul li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.head ul li.current {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.main .list {
+    height: 100vh;
+    min-height: 700px;
+}
+
+.main .list .public-title {
+    text-align: center;
+    padding-top: 10vh;
+    margin-bottom: 30px;
+}
+
+.main .list .public-title span {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 26px;
+    line-height: 180%;
+    border-bottom: 3px solid #222222;
+}
+
+.main .list.page1 {
+    background: #c9ba94 url(../images/img1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main .list.page1 .p1-padding {
+    padding-top: 40vh;
+}
+
+.main .list.page1 .p1-hy {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.main .list.page1 .goto {
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.main .list.page1 .goto .ui-btn {
+    margin: 0 10px;
+}
+
+.main .list.page2 {
+    background: #cccccc;
+}
+
+.main .list.page2 .base-box {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main .list.page2 .base-box .base-list {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.main .list.page2 .base-box .base-list .ico {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.main .list.page2 .base-box .base-list .ico.ico1 {
+    background: url(../images/page2-ico1.png) no-repeat center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: 50%;
+}
+
+.main .list.page2 .base-box .base-list .ico.ico2 {
+    background: url(../images/page2-ico2.png) no-repeat center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: 50%;
+}
+
+.main .list.page2 .base-box .base-list .ico.ico3 {
+    background: url(../images/page2-ico3.png) no-repeat center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: 50%;
+}
+
+.main .list.page2 .base-box .base-list .xl {
+    text-align: center;
+    color: #ffffff;
+    line-height: 300%;
+}
+
+.main .list.page2 .text-des {
+    padding-top: 30px;
+    text-align: center;
+    line-height: 200%;
+    color: #ffffff;
+}
+
+.main .list.page3 {
+    background: #aaaaaa url(../images/img3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main .list.page4 {
+    background: #eeeeee url(../images/img4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main .list.page4 .p4-box {
+    padding-top: 100px;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.main .list.page4 .p4-box .work-time {
+    width: 28%;
+    margin: 0 2.5%;
+    float: left;
+    height: 250px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.8);
+    background: rgba(27, 112, 207, 0.4);
+}
+
+.main .list.page4 .p4-box .work-time .work-title {
+    height: 44px;
+    line-height: 44px;
+    margin: 0px 20px;
+    border-bottom: 1px solid #eee;
+    color: white;
+}
+
+.main .list.page4 .p4-box .work-time .work-des {
+    line-height: 200%;
+    font-size: 13px;
+    margin: 0 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+.main .list.page4 .p4-box .work-time:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    background: rgba(27, 112, 207, 0.7);
+}
+
+.main .list.page5 {
+    background: #eeeeee url(../images/img4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.main .list.page5 .p4-box {
+    padding-top: 100px;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.main .list.page5 .p4-box .work-time {
+    width: 30%;
+    margin: 0%;
+    float: left;
+    min-height: 230px;
+    padding-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    background: rgba(27, 112, 207, 0.4);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.main .list.page5 .p4-box .work-time .work-title {
+    height: 44px;
+    line-height: 44px;
+    margin: 0px 20px;
+    border-bottom: 1px solid #eee;
+    color: white;
+}
+
+.main .list.page5 .p4-box .work-time .work-title .more {
+    padding-left: 20px;
+    color: white;
+    background: url(../images/link-ico.png) no-repeat center left;
+}
+
+.main .list.page5 .p4-box .work-time .work-title .more:hover {
+    color: white;
+}
+
+.main .list.page5 .p4-box .work-time .work-des {
+    line-height: 200%;
+    font-size: 13px;
+    margin: 0 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+.main .list.page5 .p4-box .work-time .work-des p {
+    text-indent: 2em;
+    padding: 10px 0px;
+}
+
+.main .list.page5 .p4-box .work-time:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    background: rgba(27, 112, 207, 0.7);
+}
+
+.main .list.page5 .p4-box .swiper-button-next {
+    right: -50px;
+}
+
+.main .list.page5 .p4-box .swiper-button-prev {
+    left: -50px;
+}
+
+.main .list.page6 {
+    background: #eee;
+}
+
+.main .list.page6 .bd {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.main .list.page6 .jn-list {
+    width: 30%;
+    margin: 0 10%;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.main .list.page6 .jn-list .jn-name {
+    line-height: 240%;
+    color: rgba(27, 112, 207, 0.7);
+}
+
+.main .list.page6 .jn-list .jn-bfb {
+    height: 8px;
+    position: relative;
+    background: #ccc;
+}
+
+.main .list.page6 .jn-list .jn-bfb .num {
+    height: 8px;
+    background: rgba(27, 112, 207, 0.7);
+    width: 10%;
+}
+
+.main .list.page6 .jn-list .jn-bfb .cd {
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    padding-left: 15px;
+    width: 100%;
+    color: rgba(27, 112, 207, 0.7);
+}
+
+.main .list.page7 {
+    background: #eeeeee url(../images/img6.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main .list.page7 .bd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72%;
+}
+
+.main .list.page7 .bd .text {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.main .list.page7 .bd .pic {
+    text-align: center;
+}
+
+.main .list.page7 .bd .pic img {
+    border: 6px solid white;
+}
+
+.wechat-head img {
+    width: 180px;
+}
